@@ -1,0 +1,11 @@
+# wrangler.toml — Cloudflare Pages Functions + D1 数据库配置
+# 说明：部署前需在 Cloudflare 控制台创建 D1 数据库，并把 database_id 填到下面
+name = "pep-y1-app"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "dist"
+
+# D1 数据库绑定（供 functions 里 env.DB 使用）
+[[d1_databases]]
+binding = "DB"               # 代码中访问的变量名 env.DB
+database_name = "pep-y1-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
