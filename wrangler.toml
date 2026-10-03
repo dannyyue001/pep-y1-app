@@ -1,11 +1,22 @@
-# wrangler.toml — Cloudflare Pages Functions + D1 数据库配置
-# 说明：部署前需在 Cloudflare 控制台创建 D1 数据库，并把 database_id 填到下面
-name = "pep-y1-app"
-compatibility_date = "2025-01-01"
-pages_build_output_dir = "dist"
+# wrangler.toml — Cloudflare Worker 动态部署配置
+# 说明：Worker + Static Assets 模式。静态资源（dist）由 Cloudflare 托管，
+# 动态 API（/api/*）由 src/worker/index.js 处理，D1 数据库供账号功能使用。
+#
+# 部署命令：npx wrangler deploy（配合 Worker 模式，无需 Pages deploy command）
+# 本地调试：npx wrangler dev --local
 
-# D1 数据库绑定（供 functions 里 env.DB 使用）
+name = "pep-y1-app"
+main = "src/worker/index.js"
+compatibility_date = "2025-01-01"
+
+# 静态资源托管（前端构建产物）
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+# D1 数据库绑定（代码中通过 env.DB 访问）
 [[d1_databases]]
-binding = "DB"               # 代码中访问的变量名 env.DB
+binding = "DB"
 database_name = "pep-y1-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "ee2fe2ce-6d02-4cbb-84da-64cac70842da"
