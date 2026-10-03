@@ -1,0 +1,2098 @@
+const kb = {
+ "version": "pep_2024_y1_上",
+ "units": [
+  {
+   "unit_id": "pep_y1_u1",
+   "unit_no": "1",
+   "name_en": "Hello!",
+   "name_cn": "你好",
+   "topic": "问候与自我介绍",
+   "word_count": "10",
+   "sentence_count": "3"
+  },
+  {
+   "unit_id": "pep_y1_u2",
+   "unit_no": "2",
+   "name_en": "My first class",
+   "name_cn": "我的第一节课",
+   "topic": "文具与课堂",
+   "word_count": "24",
+   "sentence_count": "7"
+  },
+  {
+   "unit_id": "pep_y1_u3",
+   "unit_no": "3",
+   "name_en": "Look, listen and learn",
+   "name_cn": "看、听与学",
+   "topic": "课堂指令与学习行为",
+   "word_count": "11",
+   "sentence_count": "9"
+  },
+  {
+   "unit_id": "pep_y1_u4",
+   "unit_no": "4",
+   "name_en": "Ready for school",
+   "name_cn": "准备上学",
+   "topic": "学校用品与上学准备",
+   "word_count": "8",
+   "sentence_count": "5"
+  },
+  {
+   "unit_id": "pep_y1_u5",
+   "unit_no": "5",
+   "name_en": "People around me",
+   "name_cn": "身边的人",
+   "topic": "家人与身边人物",
+   "word_count": "7",
+   "sentence_count": "7"
+  },
+  {
+   "unit_id": "pep_y1_u6",
+   "unit_no": "6",
+   "name_en": "Revision A robot show",
+   "name_cn": "复习·机器人展览",
+   "topic": "全册综合复习",
+   "word_count": "0",
+   "sentence_count": "5"
+  }
+ ],
+ "vocabulary": [
+  {
+   "kp_id": "pep_y1_u1_w01",
+   "unit": "U1 Hello!",
+   "lesson": "Let's learn",
+   "word": "hello",
+   "cn": "你好",
+   "phonetic": "həˈləʊ",
+   "example_en": "Hello!",
+   "example_cn": "你好！",
+   "distractors": [
+    "hi",
+    "hey",
+    "goodbye"
+   ],
+   "audio_key": "hello.mp3",
+   "image_key": "hello.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w02",
+   "unit": "U1 Hello!",
+   "lesson": "Let's learn",
+   "word": "hi",
+   "cn": "嗨（较随意）",
+   "phonetic": "haɪ",
+   "example_en": "Hi!",
+   "example_cn": "嗨！",
+   "distractors": [
+    "hello",
+    "hey",
+    "bye"
+   ],
+   "audio_key": "hi.mp3",
+   "image_key": "hi.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w03",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "word": "i",
+   "cn": "我",
+   "phonetic": "aɪ",
+   "example_en": "I'm Xiaoming.",
+   "example_cn": "我是小明。",
+   "distractors": [
+    "you",
+    "we",
+    "me"
+   ],
+   "audio_key": "i.mp3",
+   "image_key": "i.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w04",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "word": "am",
+   "cn": "是（第一人称be动词）",
+   "phonetic": "æm",
+   "example_en": "I am six.",
+   "example_cn": "我六岁。",
+   "distractors": [
+    "is",
+    "are",
+    "do"
+   ],
+   "audio_key": "am.mp3",
+   "image_key": "am.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w05",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "word": "what's",
+   "cn": "是什么（what is缩写）",
+   "phonetic": "wɒts",
+   "example_en": "What's your name?",
+   "example_cn": "你叫什么名字？",
+   "distractors": [
+    "what",
+    "how",
+    "where"
+   ],
+   "audio_key": "whats.mp3",
+   "image_key": "whats.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w06",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "word": "your",
+   "cn": "你的",
+   "phonetic": "jɔː(r)",
+   "example_en": "What's your name?",
+   "example_cn": "你叫什么名字？",
+   "distractors": [
+    "my",
+    "his",
+    "her"
+   ],
+   "audio_key": "your.mp3",
+   "image_key": "your.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w07",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "word": "name",
+   "cn": "名字",
+   "phonetic": "neɪm",
+   "example_en": "My name is Amy.",
+   "example_cn": "我的名字是艾米。",
+   "distractors": [
+    "game",
+    "same",
+    "nine"
+   ],
+   "audio_key": "name.mp3",
+   "image_key": "name.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w01",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "book",
+   "cn": "书",
+   "phonetic": "bʊk",
+   "example_en": "I have a book.",
+   "example_cn": "我有一本书。",
+   "distractors": [
+    "look",
+    "bag",
+    "foot"
+   ],
+   "audio_key": "book.mp3",
+   "image_key": "book.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w02",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "pencil",
+   "cn": "铅笔",
+   "phonetic": "ˈpensl",
+   "example_en": "This is a pencil.",
+   "example_cn": "这是一支铅笔。",
+   "distractors": [
+    "ruler",
+    "pen",
+    "eraser"
+   ],
+   "audio_key": "pencil.mp3",
+   "image_key": "pencil.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w03",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "ruler",
+   "cn": "尺子",
+   "phonetic": "ˈruːlə(r)",
+   "example_en": "Show me your ruler.",
+   "example_cn": "给我看看你的尺子。",
+   "distractors": [
+    "pencil",
+    "eraser",
+    "pen"
+   ],
+   "audio_key": "ruler.mp3",
+   "image_key": "ruler.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w04",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "eraser",
+   "cn": "橡皮",
+   "phonetic": "ɪˈreɪzə(r)",
+   "example_en": "I have an eraser.",
+   "example_cn": "我有一块橡皮。",
+   "distractors": [
+    "pencil",
+    "book",
+    "ruler"
+   ],
+   "audio_key": "eraser.mp3",
+   "image_key": "eraser.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w05",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "classroom",
+   "cn": "教室",
+   "phonetic": "ˈklɑːsruːm",
+   "example_en": "Our classroom is big.",
+   "example_cn": "我们的教室很大。",
+   "distractors": [
+    "school",
+    "desk",
+    "chair"
+   ],
+   "audio_key": "classroom.mp3",
+   "image_key": "classroom.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w06",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "teacher",
+   "cn": "老师",
+   "phonetic": "ˈtiːtʃə(r)",
+   "example_en": "She is my teacher.",
+   "example_cn": "她是我的老师。",
+   "distractors": [
+    "student",
+    "doctor",
+    "farmer"
+   ],
+   "audio_key": "teacher.mp3",
+   "image_key": "teacher.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w07",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "student",
+   "cn": "学生",
+   "phonetic": "ˈstjuːdnt",
+   "example_en": "I am a student.",
+   "example_cn": "我是一名学生。",
+   "distractors": [
+    "teacher",
+    "pupil",
+    "doctor"
+   ],
+   "audio_key": "student.mp3",
+   "image_key": "student.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w08",
+   "unit": "U1 Hello!",
+   "lesson": "Let's learn",
+   "word": "school",
+   "cn": "学校",
+   "phonetic": "skuːl",
+   "example_en": "I go to school.",
+   "example_cn": "我去上学。",
+   "distractors": [
+    "desk",
+    "bag",
+    "teacher"
+   ],
+   "audio_key": "pep_y1_u1_w08.mp3",
+   "image_key": "pep_y1_u1_w08.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w09",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "word": "i'm",
+   "cn": "我是（I am 缩写）",
+   "phonetic": "aɪm",
+   "example_en": "I'm Amy.",
+   "example_cn": "我是艾米。",
+   "distractors": [
+    "I",
+    "you",
+    "my"
+   ],
+   "audio_key": "pep_y1_u1_w09.mp3",
+   "image_key": "pep_y1_u1_w09.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_w10",
+   "unit": "U1 Hello!",
+   "lesson": "Let's play",
+   "word": "bye",
+   "cn": "再见",
+   "phonetic": "baɪ",
+   "example_en": "Bye!",
+   "example_cn": "再见！",
+   "distractors": [
+    "hello",
+    "hi",
+    "good"
+   ],
+   "audio_key": "pep_y1_u1_w10.mp3",
+   "image_key": "pep_y1_u1_w10.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w08",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "good",
+   "cn": "好的",
+   "phonetic": "ɡʊd",
+   "example_en": "Good morning!",
+   "example_cn": "早上好！",
+   "distractors": [
+    "bad",
+    "book",
+    "go"
+   ],
+   "audio_key": "pep_y1_u2_w08.mp3",
+   "image_key": "pep_y1_u2_w08.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w09",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "morning",
+   "cn": "早上",
+   "phonetic": "ˈmɔːnɪŋ",
+   "example_en": "Good morning!",
+   "example_cn": "早上好！",
+   "distractors": [
+    "evening",
+    "night",
+    "noon"
+   ],
+   "audio_key": "pep_y1_u2_w09.mp3",
+   "image_key": "pep_y1_u2_w09.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w10",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "miss",
+   "cn": "女士/女老师",
+   "phonetic": "mɪs",
+   "example_en": "Good morning, Miss White.",
+   "example_cn": "早上好，怀特老师。",
+   "distractors": [
+    "Mr",
+    "Mrs",
+    "Ms"
+   ],
+   "audio_key": "pep_y1_u2_w10.mp3",
+   "image_key": "pep_y1_u2_w10.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w11",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "kids",
+   "cn": "孩子们",
+   "phonetic": "kɪdz",
+   "example_en": "Good morning, kids.",
+   "example_cn": "孩子们早上好。",
+   "distractors": [
+    "children",
+    "boys",
+    "girls"
+   ],
+   "audio_key": "pep_y1_u2_w11.mp3",
+   "image_key": "pep_y1_u2_w11.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w13",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "paper",
+   "cn": "纸",
+   "phonetic": "ˈpeɪpə(r)",
+   "example_en": "Show me your paper.",
+   "example_cn": "给我看你的纸。",
+   "distractors": [
+    "book",
+    "pencil",
+    "card"
+   ],
+   "audio_key": "pep_y1_u2_w13.mp3",
+   "image_key": "pep_y1_u2_w13.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w14",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "card",
+   "cn": "卡片",
+   "phonetic": "kɑːd",
+   "example_en": "Make your action cards.",
+   "example_cn": "制作你的动作卡片。",
+   "distractors": [
+    "paper",
+    "book",
+    "bag"
+   ],
+   "audio_key": "pep_y1_u2_w14.mp3",
+   "image_key": "pep_y1_u2_w14.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w15",
+   "unit": "U2 My first class",
+   "lesson": "Listen and do",
+   "word": "open",
+   "cn": "打开",
+   "phonetic": "ˈəʊpən",
+   "example_en": "Open your book.",
+   "example_cn": "打开你的书。",
+   "distractors": [
+    "close",
+    "show",
+    "make"
+   ],
+   "audio_key": "pep_y1_u2_w15.mp3",
+   "image_key": "pep_y1_u2_w15.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w16",
+   "unit": "U2 My first class",
+   "lesson": "Listen and do",
+   "word": "close",
+   "cn": "合上",
+   "phonetic": "kləʊz",
+   "example_en": "Close your book.",
+   "example_cn": "合上你的书。",
+   "distractors": [
+    "open",
+    "show",
+    "get"
+   ],
+   "audio_key": "pep_y1_u2_w16.mp3",
+   "image_key": "pep_y1_u2_w16.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w17",
+   "unit": "U2 My first class",
+   "lesson": "Listen and do",
+   "word": "show",
+   "cn": "出示",
+   "phonetic": "ʃəʊ",
+   "example_en": "Show me your pencil.",
+   "example_cn": "给我看你的铅笔。",
+   "distractors": [
+    "open",
+    "close",
+    "make"
+   ],
+   "audio_key": "pep_y1_u2_w17.mp3",
+   "image_key": "pep_y1_u2_w17.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w18",
+   "unit": "U2 My first class",
+   "lesson": "Listen and do",
+   "word": "get",
+   "cn": "准备/拿",
+   "phonetic": "ɡet",
+   "example_en": "Get ready.",
+   "example_cn": "做好准备。",
+   "distractors": [
+    "set",
+    "go",
+    "make"
+   ],
+   "audio_key": "pep_y1_u2_w18.mp3",
+   "image_key": "pep_y1_u2_w18.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w19",
+   "unit": "U2 My first class",
+   "lesson": "Listen and do",
+   "word": "make",
+   "cn": "制作",
+   "phonetic": "meɪk",
+   "example_en": "Make your action cards.",
+   "example_cn": "制作你的动作卡片。",
+   "distractors": [
+    "open",
+    "show",
+    "play"
+   ],
+   "audio_key": "pep_y1_u2_w19.mp3",
+   "image_key": "pep_y1_u2_w19.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w20",
+   "unit": "U2 My first class",
+   "lesson": "Listen and do",
+   "word": "play",
+   "cn": "玩",
+   "phonetic": "pleɪ",
+   "example_en": "Let's play.",
+   "example_cn": "我们一起玩。",
+   "distractors": [
+    "make",
+    "open",
+    "go"
+   ],
+   "audio_key": "pep_y1_u2_w20.mp3",
+   "image_key": "pep_y1_u2_w20.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w21",
+   "unit": "U2 My first class",
+   "lesson": "Listen and do",
+   "word": "begin",
+   "cn": "开始",
+   "phonetic": "bɪˈɡɪn",
+   "example_en": "Let's begin.",
+   "example_cn": "我们开始吧。",
+   "distractors": [
+    "start",
+    "end",
+    "go"
+   ],
+   "audio_key": "pep_y1_u2_w21.mp3",
+   "image_key": "pep_y1_u2_w21.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w22",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "ready",
+   "cn": "准备好的",
+   "phonetic": "ˈredi",
+   "example_en": "I'm ready.",
+   "example_cn": "我准备好了。",
+   "distractors": [
+    "red",
+    "read",
+    "get"
+   ],
+   "audio_key": "pep_y1_u2_w22.mp3",
+   "image_key": "pep_y1_u2_w22.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w23",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "please",
+   "cn": "请",
+   "phonetic": "pliːz",
+   "example_en": "Open your book, please.",
+   "example_cn": "请打开你的书。",
+   "distractors": [
+    "yes",
+    "ok",
+    "thank"
+   ],
+   "audio_key": "pep_y1_u2_w23.mp3",
+   "image_key": "pep_y1_u2_w23.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_w24",
+   "unit": "U2 My first class",
+   "lesson": "Let's learn",
+   "word": "yes",
+   "cn": "是/好",
+   "phonetic": "jes",
+   "example_en": "—Open your book.—Yes!",
+   "example_cn": "——打开你的书。——好的！",
+   "distractors": [
+    "no",
+    "ok",
+    "hi"
+   ],
+   "audio_key": "pep_y1_u2_w24.mp3",
+   "image_key": "pep_y1_u2_w24.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w01",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and do",
+   "word": "look",
+   "cn": "看",
+   "phonetic": "lʊk",
+   "example_en": "Look at the teacher.",
+   "example_cn": "看老师。",
+   "distractors": [
+    "listen",
+    "say",
+    "read"
+   ],
+   "audio_key": "pep_y1_u3_w01.mp3",
+   "image_key": "pep_y1_u3_w01.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w02",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and do",
+   "word": "listen",
+   "cn": "听",
+   "phonetic": "ˈlɪsn",
+   "example_en": "Listen and do.",
+   "example_cn": "听一听做一做。",
+   "distractors": [
+    "look",
+    "say",
+    "read"
+   ],
+   "audio_key": "pep_y1_u3_w02.mp3",
+   "image_key": "pep_y1_u3_w02.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w03",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and do",
+   "word": "say",
+   "cn": "说",
+   "phonetic": "seɪ",
+   "example_en": "Say it, please.",
+   "example_cn": "请说出来。",
+   "distractors": [
+    "look",
+    "listen",
+    "read"
+   ],
+   "audio_key": "pep_y1_u3_w03.mp3",
+   "image_key": "pep_y1_u3_w03.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w04",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and do",
+   "word": "read",
+   "cn": "读",
+   "phonetic": "riːd",
+   "example_en": "Read my books.",
+   "example_cn": "读我的书。",
+   "distractors": [
+    "look",
+    "listen",
+    "say"
+   ],
+   "audio_key": "pep_y1_u3_w04.mp3",
+   "image_key": "pep_y1_u3_w04.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w05",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Let's learn",
+   "word": "parrot",
+   "cn": "鹦鹉",
+   "phonetic": "ˈpærət",
+   "example_en": "This is a parrot.",
+   "example_cn": "这是一只鹦鹉。",
+   "distractors": [
+    "cat",
+    "dog",
+    "bird"
+   ],
+   "audio_key": "pep_y1_u3_w05.mp3",
+   "image_key": "pep_y1_u3_w05.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w06",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Let's play",
+   "word": "wow",
+   "cn": "哇",
+   "phonetic": "waʊ",
+   "example_en": "Wow!",
+   "example_cn": "哇！",
+   "distractors": [
+    "oh",
+    "hi",
+    "yes"
+   ],
+   "audio_key": "pep_y1_u3_w06.mp3",
+   "image_key": "pep_y1_u3_w06.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w07",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Let's play",
+   "word": "thank you",
+   "cn": "谢谢你",
+   "phonetic": "ˈθæŋk juː",
+   "example_en": "Thank you!",
+   "example_cn": "谢谢你！",
+   "distractors": [
+    "please",
+    "sorry",
+    "hello"
+   ],
+   "audio_key": "pep_y1_u3_w07.mp3",
+   "image_key": "pep_y1_u3_w07.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w08",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Let's learn",
+   "word": "we",
+   "cn": "我们",
+   "phonetic": "wiː",
+   "example_en": "We listen and say.",
+   "example_cn": "我们听和说。",
+   "distractors": [
+    "I",
+    "you",
+    "they"
+   ],
+   "audio_key": "pep_y1_u3_w08.mp3",
+   "image_key": "pep_y1_u3_w08.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w09",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Let's learn",
+   "word": "word",
+   "cn": "单词",
+   "phonetic": "wɜːd",
+   "example_en": "New words.",
+   "example_cn": "新单词。",
+   "distractors": [
+    "book",
+    "picture",
+    "song"
+   ],
+   "audio_key": "pep_y1_u3_w09.mp3",
+   "image_key": "pep_y1_u3_w09.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w10",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Let's learn",
+   "word": "picture",
+   "cn": "图片",
+   "phonetic": "ˈpɪktʃə(r)",
+   "example_en": "Look at the picture.",
+   "example_cn": "看这张图片。",
+   "distractors": [
+    "word",
+    "song",
+    "book"
+   ],
+   "audio_key": "pep_y1_u3_w10.mp3",
+   "image_key": "pep_y1_u3_w10.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_w11",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Let's learn",
+   "word": "song",
+   "cn": "歌曲",
+   "phonetic": "sɒŋ",
+   "example_en": "Sing a song.",
+   "example_cn": "唱一首歌。",
+   "distractors": [
+    "picture",
+    "word",
+    "book"
+   ],
+   "audio_key": "pep_y1_u3_w11.mp3",
+   "image_key": "pep_y1_u3_w11.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_w01",
+   "unit": "U4 Ready for school",
+   "lesson": "Let's learn",
+   "word": "bag",
+   "cn": "书包",
+   "phonetic": "bæɡ",
+   "example_en": "This is my bag.",
+   "example_cn": "这是我的书包。",
+   "distractors": [
+    "book",
+    "pencil",
+    "cap"
+   ],
+   "audio_key": "pep_y1_u4_w01.mp3",
+   "image_key": "pep_y1_u4_w01.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_w02",
+   "unit": "U4 Ready for school",
+   "lesson": "Let's learn",
+   "word": "pencil case",
+   "cn": "铅笔盒",
+   "phonetic": "ˈpensl keɪs",
+   "example_en": "My pencil case is new.",
+   "example_cn": "我的铅笔盒是新的。",
+   "distractors": [
+    "pencil",
+    "bag",
+    "book"
+   ],
+   "audio_key": "pep_y1_u4_w02.mp3",
+   "image_key": "pep_y1_u4_w02.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_w03",
+   "unit": "U4 Ready for school",
+   "lesson": "Let's learn",
+   "word": "bottle",
+   "cn": "瓶子",
+   "phonetic": "ˈbɒtl",
+   "example_en": "Show me your bottle.",
+   "example_cn": "给我看你的瓶子。",
+   "distractors": [
+    "bag",
+    "cap",
+    "book"
+   ],
+   "audio_key": "pep_y1_u4_w03.mp3",
+   "image_key": "pep_y1_u4_w03.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_w04",
+   "unit": "U4 Ready for school",
+   "lesson": "Let's learn",
+   "word": "cap",
+   "cn": "帽子",
+   "phonetic": "kæp",
+   "example_en": "This is my cap.",
+   "example_cn": "这是我的帽子。",
+   "distractors": [
+    "cat",
+    "bag",
+    "bottle"
+   ],
+   "audio_key": "pep_y1_u4_w04.mp3",
+   "image_key": "pep_y1_u4_w04.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_w05",
+   "unit": "U4 Ready for school",
+   "lesson": "Let's learn",
+   "word": "every",
+   "cn": "每个",
+   "phonetic": "ˈevri",
+   "example_en": "Every morning.",
+   "example_cn": "每天早上。",
+   "distractors": [
+    "any",
+    "each",
+    "very"
+   ],
+   "audio_key": "pep_y1_u4_w05.mp3",
+   "image_key": "pep_y1_u4_w05.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_w06",
+   "unit": "U4 Ready for school",
+   "lesson": "Let's learn",
+   "word": "go",
+   "cn": "去",
+   "phonetic": "ɡəʊ",
+   "example_en": "Go to school.",
+   "example_cn": "去上学。",
+   "distractors": [
+    "no",
+    "do",
+    "show"
+   ],
+   "audio_key": "pep_y1_u4_w06.mp3",
+   "image_key": "pep_y1_u4_w06.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_w07",
+   "unit": "U4 Ready for school",
+   "lesson": "Let's learn",
+   "word": "check",
+   "cn": "检查",
+   "phonetic": "tʃek",
+   "example_en": "Check your school things.",
+   "example_cn": "检查你的学习用品。",
+   "distractors": [
+    "make",
+    "show",
+    "look"
+   ],
+   "audio_key": "pep_y1_u4_w07.mp3",
+   "image_key": "pep_y1_u4_w07.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_w08",
+   "unit": "U4 Ready for school",
+   "lesson": "Let's learn",
+   "word": "tag",
+   "cn": "标签",
+   "phonetic": "tæɡ",
+   "example_en": "Make a tag.",
+   "example_cn": "制作一个标签。",
+   "distractors": [
+    "bag",
+    "cap",
+    "hat"
+   ],
+   "audio_key": "pep_y1_u4_w08.mp3",
+   "image_key": "pep_y1_u4_w08.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_w01",
+   "unit": "U5 People around me",
+   "lesson": "Let's learn",
+   "word": "people",
+   "cn": "人/人们",
+   "phonetic": "ˈpiːpl",
+   "example_en": "People around me.",
+   "example_cn": "我身边的人。",
+   "distractors": [
+    "person",
+    "family",
+    "friend"
+   ],
+   "audio_key": "pep_y1_u5_w01.mp3",
+   "image_key": "pep_y1_u5_w01.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_w02",
+   "unit": "U5 People around me",
+   "lesson": "Let's learn",
+   "word": "mum",
+   "cn": "妈妈",
+   "phonetic": "mʌm",
+   "example_en": "She is my mum.",
+   "example_cn": "她是我的妈妈。",
+   "distractors": [
+    "dad",
+    "sister",
+    "teacher"
+   ],
+   "audio_key": "pep_y1_u5_w02.mp3",
+   "image_key": "pep_y1_u5_w02.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_w03",
+   "unit": "U5 People around me",
+   "lesson": "Let's learn",
+   "word": "dad",
+   "cn": "爸爸",
+   "phonetic": "dæd",
+   "example_en": "He is my dad.",
+   "example_cn": "他是我的爸爸。",
+   "distractors": [
+    "mum",
+    "brother",
+    "teacher"
+   ],
+   "audio_key": "pep_y1_u5_w03.mp3",
+   "image_key": "pep_y1_u5_w03.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_w04",
+   "unit": "U5 People around me",
+   "lesson": "Let's learn",
+   "word": "brother",
+   "cn": "哥哥/弟弟",
+   "phonetic": "ˈbrʌðə(r)",
+   "example_en": "He is my brother.",
+   "example_cn": "他是我的哥哥。",
+   "distractors": [
+    "sister",
+    "dad",
+    "friend"
+   ],
+   "audio_key": "pep_y1_u5_w04.mp3",
+   "image_key": "pep_y1_u5_w04.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_w05",
+   "unit": "U5 People around me",
+   "lesson": "Let's learn",
+   "word": "sister",
+   "cn": "姐姐/妹妹",
+   "phonetic": "ˈsɪstə(r)",
+   "example_en": "She is my sister.",
+   "example_cn": "她是我的姐姐。",
+   "distractors": [
+    "brother",
+    "mum",
+    "friend"
+   ],
+   "audio_key": "pep_y1_u5_w05.mp3",
+   "image_key": "pep_y1_u5_w05.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_w06",
+   "unit": "U5 People around me",
+   "lesson": "Let's learn",
+   "word": "classmate",
+   "cn": "同班同学",
+   "phonetic": "ˈklɑːsmeɪt",
+   "example_en": "He is my classmate.",
+   "example_cn": "他是我的同班同学。",
+   "distractors": [
+    "teacher",
+    "friend",
+    "family"
+   ],
+   "audio_key": "pep_y1_u5_w06.mp3",
+   "image_key": "pep_y1_u5_w06.png",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_w07",
+   "unit": "U5 People around me",
+   "lesson": "Let's learn",
+   "word": "family",
+   "cn": "家庭",
+   "phonetic": "ˈfæməli",
+   "example_en": "My family.",
+   "example_cn": "我的家庭。",
+   "distractors": [
+    "people",
+    "home",
+    "friend"
+   ],
+   "audio_key": "pep_y1_u5_w07.mp3",
+   "image_key": "pep_y1_u5_w07.png",
+   "difficulty": 1,
+   "status": "verified"
+  }
+ ],
+ "sentences": [
+  {
+   "kp_id": "pep_y1_u1_s01",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "pattern_en": "Hello! I'm ...",
+   "pattern_cn": "你好！我是……",
+   "context": "见面自我介绍",
+   "substitution": "名字替换",
+   "audio_key": "s01.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_s02",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "pattern_en": "What's your name?",
+   "pattern_cn": "你叫什么名字？",
+   "context": "询问对方姓名",
+   "substitution": "姓名替换",
+   "audio_key": "s02.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_s03",
+   "unit": "U1 Hello!",
+   "lesson": "Let's talk",
+   "pattern_en": "My name is ...",
+   "pattern_cn": "我的名字是……",
+   "context": "回答姓名",
+   "substitution": "姓名替换",
+   "audio_key": "s03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_s01",
+   "unit": "U2 My first class",
+   "lesson": "Listen and do",
+   "pattern_en": "Close your book.",
+   "pattern_cn": "合上你的书。",
+   "context": "课堂指令",
+   "substitution": "book→pencil case",
+   "audio_key": "pep_y1_u2_s01.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_s02",
+   "unit": "U2 My first class",
+   "lesson": "Listen and sing",
+   "pattern_en": "Let's begin!",
+   "pattern_cn": "我们开始吧！",
+   "context": "开始上课",
+   "substitution": "",
+   "audio_key": "pep_y1_u2_s02.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_s03",
+   "unit": "U2 My first class",
+   "lesson": "Listen and sing",
+   "pattern_en": "How are you this morning?",
+   "pattern_cn": "今天早上你好吗？",
+   "context": "早晨问候",
+   "substitution": "morning→afternoon",
+   "audio_key": "pep_y1_u2_s03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_s04",
+   "unit": "U2 My first class",
+   "lesson": "Listen and sing",
+   "pattern_en": "I am fine this morning.",
+   "pattern_cn": "我今天早上很好。",
+   "context": "回应问候",
+   "substitution": "fine→good",
+   "audio_key": "pep_y1_u2_s04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_s05",
+   "unit": "U2 My first class",
+   "lesson": "Role-play",
+   "pattern_en": "This is a pencil.",
+   "pattern_cn": "这是一支铅笔。",
+   "context": "介绍物品",
+   "substitution": "pencil→book/paper",
+   "audio_key": "pep_y1_u2_s05.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_s06",
+   "unit": "U2 My first class",
+   "lesson": "Listen and chant",
+   "pattern_en": "I'm ready.",
+   "pattern_cn": "我准备好了。",
+   "context": "做好准备",
+   "substitution": "",
+   "audio_key": "pep_y1_u2_s06.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_s07",
+   "unit": "U2 My first class",
+   "lesson": "Listen and sing",
+   "pattern_en": "Sit down, please.",
+   "pattern_cn": "请坐。",
+   "context": "课堂指令",
+   "substitution": "",
+   "audio_key": "pep_y1_u2_s07.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s01",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen, point and repeat",
+   "pattern_en": "Look at me.",
+   "pattern_cn": "看我。",
+   "context": "课堂指令",
+   "substitution": "me→the teacher",
+   "audio_key": "pep_y1_u3_s01.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s02",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen, point and repeat",
+   "pattern_en": "Listen to me.",
+   "pattern_cn": "听我说。",
+   "context": "课堂指令",
+   "substitution": "me→the teacher",
+   "audio_key": "pep_y1_u3_s02.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s03",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen, point and repeat",
+   "pattern_en": "Say after me.",
+   "pattern_cn": "跟我读。",
+   "context": "课堂指令",
+   "substitution": "",
+   "audio_key": "pep_y1_u3_s03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s04",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen, point and repeat",
+   "pattern_en": "Read your book.",
+   "pattern_cn": "读你的书。",
+   "context": "课堂指令",
+   "substitution": "book→books",
+   "audio_key": "pep_y1_u3_s04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s05",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and chant",
+   "pattern_en": "I look at my teacher.",
+   "pattern_cn": "我看老师。",
+   "context": "描述学习行为",
+   "substitution": "look at→listen to",
+   "audio_key": "pep_y1_u3_s05.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s06",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and chant",
+   "pattern_en": "I listen and say.",
+   "pattern_cn": "我听和说。",
+   "context": "描述学习行为",
+   "substitution": "",
+   "audio_key": "pep_y1_u3_s06.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s07",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and chant",
+   "pattern_en": "I read my books.",
+   "pattern_cn": "我读我的书。",
+   "context": "描述学习行为",
+   "substitution": "books→book",
+   "audio_key": "pep_y1_u3_s07.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s08",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and do",
+   "pattern_en": "Here is a picture.",
+   "pattern_cn": "这里有一张图片。",
+   "context": "介绍物品",
+   "substitution": "picture→song/book",
+   "audio_key": "pep_y1_u3_s08.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_s09",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and say",
+   "pattern_en": "Give a high five.",
+   "pattern_cn": "击个掌。",
+   "context": "鼓励互动",
+   "substitution": "",
+   "audio_key": "pep_y1_u3_s09.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_s01",
+   "unit": "U4 Ready for school",
+   "lesson": "Listen and chant",
+   "pattern_en": "This is my bag.",
+   "pattern_cn": "这是我的书包。",
+   "context": "介绍物品",
+   "substitution": "bag→book/cap/bottle/pencil case",
+   "audio_key": "pep_y1_u4_s01.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_s02",
+   "unit": "U4 Ready for school",
+   "lesson": "Listen and chant",
+   "pattern_en": "Every morning, I go to school.",
+   "pattern_cn": "每天早上，我去上学。",
+   "context": "描述日常",
+   "substitution": "",
+   "audio_key": "pep_y1_u4_s02.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_s03",
+   "unit": "U4 Ready for school",
+   "lesson": "Show and say",
+   "pattern_en": "Check your school things.",
+   "pattern_cn": "检查你的学习用品。",
+   "context": "检查物品",
+   "substitution": "",
+   "audio_key": "pep_y1_u4_s03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_s04",
+   "unit": "U4 Ready for school",
+   "lesson": "Make",
+   "pattern_en": "Make a tag.",
+   "pattern_cn": "制作标签。",
+   "context": "动手制作",
+   "substitution": "",
+   "audio_key": "pep_y1_u4_s04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_s05",
+   "unit": "U4 Ready for school",
+   "lesson": "Listen and chant",
+   "pattern_en": "Ready? Go!",
+   "pattern_cn": "准备好了吗？开始！",
+   "context": "游戏口令",
+   "substitution": "",
+   "audio_key": "pep_y1_u4_s05.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_s01",
+   "unit": "U5 People around me",
+   "lesson": "Listen and chant",
+   "pattern_en": "I love my mum.",
+   "pattern_cn": "我爱我的妈妈。",
+   "context": "表达情感",
+   "substitution": "mum→dad/sister/brother",
+   "audio_key": "pep_y1_u5_s01.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_s02",
+   "unit": "U5 People around me",
+   "lesson": "Listen and chant",
+   "pattern_en": "They love me.",
+   "pattern_cn": "他们爱我。",
+   "context": "表达情感",
+   "substitution": "",
+   "audio_key": "pep_y1_u5_s02.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_s03",
+   "unit": "U5 People around me",
+   "lesson": "Listen and sing",
+   "pattern_en": "Who is he?",
+   "pattern_cn": "他是谁？",
+   "context": "询问人物",
+   "substitution": "he→she",
+   "audio_key": "pep_y1_u5_s03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_s04",
+   "unit": "U5 People around me",
+   "lesson": "Listen and sing",
+   "pattern_en": "Who is she?",
+   "pattern_cn": "她是谁？",
+   "context": "询问人物",
+   "substitution": "she→he",
+   "audio_key": "pep_y1_u5_s04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_s05",
+   "unit": "U5 People around me",
+   "lesson": "Listen and sing",
+   "pattern_en": "He's my brother.",
+   "pattern_cn": "他是我的哥哥。",
+   "context": "回答人物",
+   "substitution": "brother→dad/teacher",
+   "audio_key": "pep_y1_u5_s05.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_s06",
+   "unit": "U5 People around me",
+   "lesson": "Listen and sing",
+   "pattern_en": "She's my mum.",
+   "pattern_cn": "她是我的妈妈。",
+   "context": "回答人物",
+   "substitution": "mum→sister/classmate",
+   "audio_key": "pep_y1_u5_s06.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_s07",
+   "unit": "U5 People around me",
+   "lesson": "Listen and sing",
+   "pattern_en": "They are all my family.",
+   "pattern_cn": "他们都是我的家人。",
+   "context": "总结家庭",
+   "substitution": "",
+   "audio_key": "pep_y1_u5_s07.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u6_s01",
+   "unit": "Revision A robot show",
+   "lesson": "Listen and read aloud",
+   "pattern_en": "Let's meet at the robot show.",
+   "pattern_cn": "我们在机器人展览上集合吧。",
+   "context": "约定见面",
+   "substitution": "robot show→school",
+   "audio_key": "pep_y1_u6_s01.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u6_s02",
+   "unit": "Revision A robot show",
+   "lesson": "Listen and read aloud",
+   "pattern_en": "Who's he? He's my classmate, Binbin.",
+   "pattern_cn": "他是谁？他是我的同学斌斌。",
+   "context": "介绍人物",
+   "substitution": "classmate→brother",
+   "audio_key": "pep_y1_u6_s02.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u6_s03",
+   "unit": "Revision A robot show",
+   "lesson": "Listen and read aloud",
+   "pattern_en": "Let's play. You say. I do.",
+   "pattern_cn": "我们一起玩吧。你们说。我做。",
+   "context": "游戏规则",
+   "substitution": "",
+   "audio_key": "pep_y1_u6_s03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u6_s04",
+   "unit": "Revision A robot show",
+   "lesson": "Listen and tick",
+   "pattern_en": "Open my bag, please.",
+   "pattern_cn": "请打开我的书包。",
+   "context": "请求动作",
+   "substitution": "bag→book",
+   "audio_key": "pep_y1_u6_s04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u6_s05",
+   "unit": "Revision A robot show",
+   "lesson": "Listen and tick",
+   "pattern_en": "Read this book, please.",
+   "pattern_cn": "请读这本书。",
+   "context": "请求动作",
+   "substitution": "book→books",
+   "audio_key": "pep_y1_u6_s05.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  }
+ ],
+ "phonics": [
+  {
+   "kp_id": "pep_y1_u1_p01",
+   "unit": "U1 Hello!",
+   "letter": "Aa",
+   "phoneme": "/æ/",
+   "hint": "嘴巴张大，短促的\"哎\"",
+   "example_words": [
+    "apple",
+    "ant"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_p02",
+   "unit": "U1 Hello!",
+   "letter": "Bb",
+   "phoneme": "/b/",
+   "hint": "双唇爆破音",
+   "example_words": [
+    "book",
+    "bag",
+    "boy"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_p03",
+   "unit": "U1 Hello!",
+   "letter": "Cc",
+   "phoneme": "/k/",
+   "hint": "清辅音，类似汉语“科”但不送气",
+   "example_words": [
+    "cap",
+    "classmate",
+    "card"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_p04",
+   "unit": "U1 Hello!",
+   "letter": "Dd",
+   "phoneme": "/d/",
+   "hint": "浊辅音，舌尖抵上齿龈爆破",
+   "example_words": [
+    "dad",
+    "dog"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_p01",
+   "unit": "U2 My first class",
+   "letter": "Ee",
+   "phoneme": "/e/",
+   "hint": "短元音，嘴形扁平",
+   "example_words": [
+    "elephant"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_p02",
+   "unit": "U2 My first class",
+   "letter": "Ff",
+   "phoneme": "/f/",
+   "hint": "上齿轻咬下唇送气",
+   "example_words": [
+    "family",
+    "five"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_p03",
+   "unit": "U2 My first class",
+   "letter": "Gg",
+   "phoneme": "/ɡ/",
+   "hint": "浊辅音，类似汉语“哥”",
+   "example_words": [
+    "good",
+    "go",
+    "get"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_p04",
+   "unit": "U2 My first class",
+   "letter": "Hh",
+   "phoneme": "/h/",
+   "hint": "轻送气，类似哈气",
+   "example_words": [
+    "hello",
+    "hi",
+    "hooray"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_p01",
+   "unit": "U3 Look, listen and learn",
+   "letter": "Ii",
+   "phoneme": "/ɪ/",
+   "hint": "短元音，短促的“衣”",
+   "example_words": [
+    "in"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_p02",
+   "unit": "U3 Look, listen and learn",
+   "letter": "Jj",
+   "phoneme": "/dʒ/",
+   "hint": "浊辅音，类似“知”",
+   "example_words": [
+    "John"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_p03",
+   "unit": "U3 Look, listen and learn",
+   "letter": "Kk",
+   "phoneme": "/k/",
+   "hint": "清辅音，与 Cc 同音",
+   "example_words": [
+    "kids"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_p04",
+   "unit": "U3 Look, listen and learn",
+   "letter": "Ll",
+   "phoneme": "/l/",
+   "hint": "舌尖抵上齿龈，浊辅音",
+   "example_words": [
+    "look",
+    "listen",
+    "learn"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_p01",
+   "unit": "U4 Ready for school",
+   "letter": "Mm",
+   "phoneme": "/m/",
+   "hint": "双唇紧闭，鼻音",
+   "example_words": [
+    "mum",
+    "morning",
+    "make"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_p02",
+   "unit": "U4 Ready for school",
+   "letter": "Nn",
+   "phoneme": "/n/",
+   "hint": "舌尖抵上齿龈，鼻音",
+   "example_words": [
+    "name"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_p03",
+   "unit": "U4 Ready for school",
+   "letter": "Oo",
+   "phoneme": "/ɒ/",
+   "hint": "短元音，嘴巴张大",
+   "example_words": [
+    "open"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_p04",
+   "unit": "U4 Ready for school",
+   "letter": "Pp",
+   "phoneme": "/p/",
+   "hint": "清辅音，双唇爆破",
+   "example_words": [
+    "pencil",
+    "paper",
+    "please"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_p01",
+   "unit": "U5 People around me",
+   "letter": "Qq",
+   "phoneme": "/kw/",
+   "hint": "双唇收圆发“阔”",
+   "example_words": [
+    "queen"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_p02",
+   "unit": "U5 People around me",
+   "letter": "Rr",
+   "phoneme": "/r/",
+   "hint": "舌尖卷起，浊辅音",
+   "example_words": [
+    "read",
+    "ready"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_p03",
+   "unit": "U5 People around me",
+   "letter": "Ss",
+   "phoneme": "/s/",
+   "hint": "清辅音，类似“丝”",
+   "example_words": [
+    "say",
+    "sister",
+    "school"
+   ],
+   "chant": "",
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_p04",
+   "unit": "U5 People around me",
+   "letter": "Tt",
+   "phoneme": "/t/",
+   "hint": "清辅音，舌尖爆破",
+   "example_words": [
+    "teacher",
+    "thank",
+    "tag"
+   ],
+   "chant": "",
+   "status": "verified"
+  }
+ ],
+ "functions": [
+  {
+   "kp_id": "pep_y1_u1_f01",
+   "unit": "U1 Hello!",
+   "lesson": "Let's play",
+   "phrase_en": "Goodbye!",
+   "phrase_cn": "再见！",
+   "scenario": "道别",
+   "audio_key": "f01.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_f02",
+   "unit": "U1 Hello!",
+   "lesson": "Let's play",
+   "phrase_en": "Good morning!",
+   "phrase_cn": "早上好！",
+   "scenario": "早晨问候",
+   "audio_key": "f02.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u1_f03",
+   "unit": "U1 Hello!",
+   "lesson": "Let's play",
+   "phrase_en": "Bye!",
+   "phrase_cn": "再见！",
+   "scenario": "道别",
+   "audio_key": "pep_y1_u1_f03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_f01",
+   "unit": "U2 My first class",
+   "lesson": "Listen and say",
+   "phrase_en": "Good morning!",
+   "phrase_cn": "早上好！",
+   "scenario": "早晨问候",
+   "audio_key": "pep_y1_u2_f03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_f02",
+   "unit": "U2 My first class",
+   "lesson": "Listen and say",
+   "phrase_en": "Open your book, please.",
+   "phrase_cn": "请打开你的书。",
+   "scenario": "课堂指令",
+   "audio_key": "pep_y1_u2_f04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u2_f03",
+   "unit": "U2 My first class",
+   "lesson": "Listen and say",
+   "phrase_en": "Now, show me your pencil.",
+   "phrase_cn": "现在，向我展示你的铅笔。",
+   "scenario": "课堂指令",
+   "audio_key": "pep_y1_u2_f05.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_f01",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and say",
+   "phrase_en": "I show.",
+   "phrase_cn": "我来展示。",
+   "scenario": "课堂展示",
+   "audio_key": "pep_y1_u3_f03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u3_f02",
+   "unit": "U3 Look, listen and learn",
+   "lesson": "Listen and say",
+   "phrase_en": "I say.",
+   "phrase_cn": "我来说。",
+   "scenario": "课堂表达",
+   "audio_key": "pep_y1_u3_f04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_f01",
+   "unit": "U4 Ready for school",
+   "lesson": "Listen and say",
+   "phrase_en": "This is my pencil case.",
+   "phrase_cn": "这是我的铅笔盒。",
+   "scenario": "介绍物品",
+   "audio_key": "pep_y1_u4_f03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_f02",
+   "unit": "U4 Ready for school",
+   "lesson": "Listen, point and repeat",
+   "phrase_en": "Show me your bottle.",
+   "phrase_cn": "向我展示你的水瓶。",
+   "scenario": "展示物品",
+   "audio_key": "pep_y1_u4_f04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u4_f03",
+   "unit": "U4 Ready for school",
+   "lesson": "Make",
+   "phrase_en": "I'm ready!",
+   "phrase_cn": "我准备好了！",
+   "scenario": "做好准备",
+   "audio_key": "pep_y1_u4_f05.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_f01",
+   "unit": "U5 People around me",
+   "lesson": "Listen and say",
+   "phrase_en": "Who's he?",
+   "phrase_cn": "他是谁？",
+   "scenario": "询问人物",
+   "audio_key": "pep_y1_u5_f03.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_f02",
+   "unit": "U5 People around me",
+   "lesson": "Listen and say",
+   "phrase_en": "He's my classmate.",
+   "phrase_cn": "他是我的同学。",
+   "scenario": "介绍人物",
+   "audio_key": "pep_y1_u5_f04.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  },
+  {
+   "kp_id": "pep_y1_u5_f03",
+   "unit": "U5 People around me",
+   "lesson": "Listen, point and repeat",
+   "phrase_en": "This is my mum.",
+   "phrase_cn": "这是我的妈妈。",
+   "scenario": "介绍家人",
+   "audio_key": "pep_y1_u5_f05.mp3",
+   "difficulty": 1,
+   "status": "verified"
+  }
+ ],
+ "whitelist": [
+  "am",
+  "bag",
+  "begin",
+  "book",
+  "bottle",
+  "brother",
+  "bye",
+  "cap",
+  "card",
+  "check",
+  "classmate",
+  "classroom",
+  "close",
+  "dad",
+  "eraser",
+  "every",
+  "family",
+  "get",
+  "go",
+  "good",
+  "hello",
+  "hi",
+  "i",
+  "i'm",
+  "kids",
+  "listen",
+  "look",
+  "make",
+  "miss",
+  "morning",
+  "mum",
+  "name",
+  "open",
+  "paper",
+  "parrot",
+  "pencil",
+  "pencil case",
+  "people",
+  "picture",
+  "play",
+  "please",
+  "read",
+  "ready",
+  "ruler",
+  "say",
+  "school",
+  "show",
+  "sister",
+  "song",
+  "student",
+  "tag",
+  "teacher",
+  "thank you",
+  "we",
+  "what's",
+  "word",
+  "wow",
+  "yes",
+  "your"
+ ]
+};
+export default kb;
